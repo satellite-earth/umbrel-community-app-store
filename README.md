@@ -1,4 +1,4 @@
-## hzrd149's Umbrel Community App Store
+## satellite's Umbrel Community App Store
 
 This repository is an Umbrel Community App Store that has the latest version of [satellite](https://github.com/satellite-earth) in it.
 
