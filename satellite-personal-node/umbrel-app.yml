@@ -1,0 +1,26 @@
+manifestVersion: 1
+id: satellite-personal-node
+category: social
+name: Satellite Personal Node
+version: "0.2.2"
+tagline: A personal nostr relay
+icon: https://raw.githubusercontent.com/satellite-earth/umbrel-community-app-store/master/satellite-personal-node/icon.svg
+description: >-
+  Satellite Personal Node is a personal nostr relay and hub for exploring the rest of the nostr ecosystem
+releaseNotes: >-
+  This is pre-alpha software! The first release of the new Satellite application stack will soon be ready (at which point this notice will be removed) but until then expect that things will be moved around, changed, and deleted without warning. In fact we currently make no guarantees about anything.
+
+  BUILD IN PUBLIC
+
+developer: satellite-earth
+website: https://github.com/satellite-earth
+dependencies: []
+repo: https://github.com/satellite-earth
+support: https://github.com/satellite-earth/issues
+port: 3149
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+submitter: hzrd149
+submission: ""
