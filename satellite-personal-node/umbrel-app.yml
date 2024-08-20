@@ -2,7 +2,7 @@ manifestVersion: 1
 id: satellite-personal-node
 category: social
 name: Satellite Personal Node
-version: "0.2.2"
+version: "0.3.0"
 tagline: A personal nostr relay
 icon: https://raw.githubusercontent.com/satellite-earth/umbrel-community-app-store/master/satellite-personal-node/icon.svg
 description: >-

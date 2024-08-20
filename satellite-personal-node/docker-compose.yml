@@ -8,7 +8,7 @@ services:
       PROXY_AUTH_ADD: "false"
 
   web:
-    image: ghcr.io/satellite-earth/private-node:0.2.2@sha256:55fce0ef9a102ba860ca7cbeed9d9fbc801a570182a6602ff3b55e12f2e45589
+    image: ghcr.io/satellite-earth/personal-node:0.3
     restart: on-failure
     stop_grace_period: 1m
     init: true
