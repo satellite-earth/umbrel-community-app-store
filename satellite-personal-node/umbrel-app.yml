@@ -2,15 +2,28 @@ manifestVersion: 1
 id: satellite-personal-node
 category: social
 name: Satellite Personal Node
-version: "0.3.0"
+version: "0.4.0"
 tagline: A personal nostr relay
 icon: https://raw.githubusercontent.com/satellite-earth/umbrel-community-app-store/master/satellite-personal-node/icon.svg
 description: >-
   Satellite Personal Node is a personal nostr relay and hub for exploring the rest of the nostr ecosystem
 releaseNotes: >-
-  This is pre-alpha software! The first release of the new Satellite application stack will soon be ready (at which point this notice will be removed) but until then expect that things will be moved around, changed, and deleted without warning. In fact we currently make no guarantees about anything.
+  ### Minor Changes
 
-  BUILD IN PUBLIC
+  - Add internal hyper socks5 proxy to allow connections to .hyper domains
+  - Add inbound and outbound connection managers
+  - Add option to route all traffic through tor proxy
+  - Add support for inbound and outbound tor connections
+  - Add support for inbound and outbound hyperdht connections
+  - Add support for ntfy notifications
+  - Add inbound and outbound connections for I2P
+
+  ### Patch Changes
+
+  - Fallback to users app relays if missing NIP-65 when forwarding DM
+  - Updated dependencies
+    - @satellite-earth/web-ui@0.4.0
+    - @satellite-earth/core@0.4.0
 
 developer: satellite-earth
 website: https://github.com/satellite-earth
