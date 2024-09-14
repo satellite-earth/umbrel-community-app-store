@@ -16,7 +16,6 @@ services:
       - ${APP_DATA_DIR}/data:/data
     environment:
       DATA_PATH: /data
-      REDIRECT_APP_URL: https://app.satellite.earth/
       TOR_ADDRESS: ${APP_HIDDEN_SERVICE}
       TOR_PROXY_TYPE: "SOCKS5"
       TOR_PROXY: "$TOR_PROXY_IP:$TOR_PROXY_PORT"
